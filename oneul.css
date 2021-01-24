@@ -16,8 +16,14 @@
       h5 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; letter-spacing: 4.8px; line-height:1.2; font-weight: 400; font-size: 16px;  }
 
       p { font-family: 'Montserrat', 'Noto Sans KR', sans-serif;  }
+ 
+   /* css 선택자  */
+   
+      .margin_b_10 { margin-bottom: 10px;}
+      .margin_b_20 { margin-bottom: 20px;}
+      .margin_b_50 { margin-bottom: 50px;}
 
-      /* header css  */
+  /* header css  */
 
       .gnb_wrap {width: 100%; height: 130px; background-color : rgba(255,255,255,0); display: flex; padding: 0 2.5%; align-items: center; position: fixed;  top:0px; left:0px; }
 
@@ -25,4 +31,19 @@
  
       .gnb_logo_img {width: 127.5px;}
 
-      .gnb_hiddenmenu {width: 127.5px; text-align: right;}
+   /* Hero 부분 */
+
+   .hero_wrap { width: 100%; height: 100vh; background-image: url(../img/visual01.jpg); display: flex; justify-content: center; align-items: center;  position: relative; background-repeat: no-repeat; background-size: cover;}
+
+   .here_title {text-align: center; color: white;}
+
+   .hero_reservation {width: 230px; height: 70px; border:1px solid white; display:flex; justify-content: center; align-items: center; color: white; position: absolute; top: 150px; right: 100px; }
+
+   .hero_reservation_img {width: 20px; margin: 0 20px 0 0; color: white; fill: white; }
+
+   .hero_reservation a {color: white;}
+
+   .here_img_prev {width: 28px; height: 53px;}
+   .here_img_next {width: 28px; height: 53px;}
+
+
