@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+      body { font-family: 'Montserrat'; font-size: 16px; line-height: 1.7; color:rgb(34,34,34); font-weight: 200; letter-spacing: -0.45px; } 
+
+      a { text-decoration: none;}
+      a:hover { color:rgb(194,122,52);}
+
+      h1 { font-family: 'Montaga', serif; font-size: 96px; font-weight: 400;  letter-spacing: -1.92px; line-height: 1; color:white; }
+
+      h2 { font-family: 'Montaga', serif; font-size: 60px; font-weight: 400;  letter-spacing: -1.5px; line-height: 1; }
+
+      h3 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; font-size: 22px; font-weight: 100; }
+
+      h4 { font-family: 'Montaga'; font-size: 22px; font-weight: 100; }
+
+      h5 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; letter-spacing: 4.8px; line-height:1.2; font-weight: 400; font-size: 16px;  }
+
+      p { font-family: 'Montserrat', 'Noto Sans KR', sans-serif;  }
+
+      /* header css  */
+
+      .gnb_wrap {width: 100%; height: 130px; background-color : rgba(255,255,255,0); display: flex; padding: 0 2.5%; align-items: center; position: fixed;  top:0px; left:0px; }
+
+      .gnb_menu_a {padding: 0 43px; height: 100%; font-family: 'Montserrat'; letter-spacing: -0.55px; color:black;line-height: 22px; font-weight: 400;}
+ 
+      .gnb_logo_img {width: 127.5px;}
+
+      .gnb_hiddenmenu {width: 127.5px; text-align: right;}
